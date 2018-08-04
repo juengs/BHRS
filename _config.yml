@@ -1,0 +1,46 @@
+# Dependencies
+kramdown:         redcarpet
+# highlighter:      pygments FIXED
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+  gems:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+# Permalinks
+permalink:        pretty
+
+
+# Setup
+title:            BHRS
+tagline:          'A BHRS theme'
+description:      'A popular delicate <a href="http://github.com/juengs" target="_blank">TOPIC</a> blog that Record wonderful work and life. no end for learning. <a href="https://twitter.com/juengs" target="_blank">@Juengs</a>.'
+url:              
+baseurl:          /
+
+author:
+  name:           'BHRS'
+  url:            https://twitter.com/juengs
+
+paginate:         5
+paginate_path: "page:num"
+
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/juengs/BHRS.git
+
